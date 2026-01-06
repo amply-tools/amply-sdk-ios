@@ -97,16 +97,6 @@ AmplySDK.shared.getCampaigns { campaigns in
 
 For detailed documentation, visit [Amply Documentation](https://docs.amply.tools).
 
-## Android SDK
-
-For Android integration, add to your `build.gradle.kts`:
-
-```kotlin
-dependencies {
-    implementation("tools.amply:sdk-android:0.1.7")
-}
-```
-
 ## Support
 
 - [GitHub Issues](https://github.com/amply-tools/amply-sdk-ios/issues)
