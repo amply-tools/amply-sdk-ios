@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage     = "https://github.com/amply-tools/amply-sdk-ios"
-  spec.license      = { :type => "Apache 2.0", :file => "LICENSE" }
+  spec.license      = { :type => "Apache 2.0" }
   spec.author       = { "Amply Team" => "support@amply.tools" }
 
   spec.source       = {
