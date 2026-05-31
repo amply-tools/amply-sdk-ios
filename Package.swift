@@ -3,8 +3,8 @@ import PackageDescription
 
 // MARK: - Release Configuration
 // Updated automatically by CI when publishing a new release
-let version = "0.5.2"
-let checksum = "2cf2c3781174e567e2c01e974d4832292d28abe2cf2d49f937f2ede98f25a752"
+let version = "0.5.4"
+let checksum = "f314b06a15470cf69ac509fbb4716490e814ff771d1dfc09bd27c5719f8603c5"
 
 let package = Package(
     name: "AmplySDK",
