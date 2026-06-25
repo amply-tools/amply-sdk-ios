@@ -1,5 +1,7 @@
 # AmplySDK for iOS
 
+> **[Amply](https://amply.tools)** is in-app orchestration for mobile apps: growth, product, and marketing teams decide which experience each user gets, and when — from a dashboard, without a new release or ongoing engineering work. Engineering integrates the SDK once; the team runs the experiments from then on.
+
 Amply SDK for mobile app engagement, campaign management, and analytics.
 
 ## Requirements
