@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "AmplySDK"
-  spec.version      = "0.10.0"
+  spec.version      = "0.10.1"
   spec.summary      = "Amply SDK for mobile app engagement and campaign management"
   spec.description  = <<-DESC
     AmplySDK is a powerful SDK for mobile app engagement, campaign management,
