@@ -24,7 +24,7 @@ Or add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/amply-tools/amply-sdk-ios.git", from: "0.1.7")
+    .package(url: "https://github.com/amply-tools/amply-sdk-ios.git", from: "0.10.1")
 ]
 ```
 
@@ -42,7 +42,7 @@ Then add to your target:
 Add to your `Podfile`:
 
 ```ruby
-pod 'AmplySDK', '~> 0.1.7'
+pod 'AmplySDK', '~> 0.10.1'
 ```
 
 Then run:
