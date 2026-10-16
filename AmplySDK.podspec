@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     :http => "https://github.com/amply-tools/amply-sdk-ios/releases/download/#{spec.version}/AmplySDK.xcframework.zip"
   }
 
-  spec.ios.deployment_target = "14.0"
+  spec.ios.deployment_target = "15.0"
   spec.swift_versions = ["5.0", "5.5", "5.9"]
 
   # Binary XCFramework - no source code
