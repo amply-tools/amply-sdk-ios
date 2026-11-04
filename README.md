@@ -24,7 +24,7 @@ Or add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/amply-tools/amply-sdk-ios.git", from: "0.10.1")
+    .package(url: "https://github.com/amply-tools/amply-sdk-ios.git", from: "0.17.2")
 ]
 ```
 
@@ -39,11 +39,13 @@ Then add to your target:
 
 ### CocoaPods
 
-Add to your `Podfile`:
+The CocoaPods public catalog (trunk) stops accepting new versions on December 2, 2026, so `pod 'AmplySDK', '~> X'` will not see later releases. Point your `Podfile` at the podspec of the version you want:
 
 ```ruby
-pod 'AmplySDK', '~> 0.10.1'
+pod 'AmplySDK', :podspec => 'https://raw.githubusercontent.com/amply-tools/amply-sdk-ios/0.17.2/AmplySDK.podspec'
 ```
+
+To upgrade, change the version in the URL and run `pod install` again.
 
 Then run:
 
